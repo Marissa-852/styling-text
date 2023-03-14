@@ -9,7 +9,7 @@ img{
     width: 100%;
 }
 
-figcaption, .article-category, .sub-title, .author, time {
+.figcaption, .article-category, .sub-title, .author, .time {
     font-family: Open Sans;
 }
 
@@ -35,4 +35,25 @@ figcaption {
     text-align: center;
     color: #757575;
     font-style: italic;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+a:hover {
+text-decoration: none;
+color: #ff3530;
+}
+.author, .time {
+    font-size: .85rem;
+}
+
+.author {
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 1.25em 0;
 }
